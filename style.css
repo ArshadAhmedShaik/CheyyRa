@@ -1,0 +1,193 @@
+body {
+    background-color: rgba(1, 1, 1, 0.9);
+    margin: 0 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Bitcount Grid Single", system-ui;
+    font-size: 5rem;
+    font-weight: 500;
+    color: antiquewhite;
+    text-shadow: 1px 1px 4px red;
+    font-style: normal;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+h1:hover {
+    transform: scale(1.05);
+    text-shadow: 1px 1px 10px grey;
+    color: salmon;
+}
+
+#task {
+    border: none;
+    background-color: antiquewhite;
+    width: 60%;
+    height: 3rem;
+    border-radius: 0.5rem;
+    transition: 0.2s;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #333;
+    padding: 0;
+}
+
+#btn {
+    border: none;
+    background-color: antiquewhite;
+    height: 3rem;
+    margin-left: 2rem;
+    border-radius: 0.5rem;
+    transition: 0.2s;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #333;
+    cursor: pointer;
+}
+
+.taskdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#task:hover {
+    transform: scale(1.02);
+    box-shadow: 1px 1px 10px pink;
+}
+
+#btn:hover {
+    box-shadow: 1px 1px 10px pink;
+    transform: scale(1.08);
+}
+
+#btn:active {
+    transform: scale(0.855);
+    color: salmon;
+    box-shadow: 1px 1px 10px pink;
+}
+
+.content {
+    color: white;
+    min-height: 10rem;
+    height: auto;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    text-align: center;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+li {
+    text-align: left;
+}
+
+#clear {
+    border: none;
+    background-color: antiquewhite;
+    height: 3rem;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    border-radius: 0.5rem;
+    transition: 0.2s;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #333;
+    cursor: pointer;
+}
+
+#clear:hover {
+    box-shadow: 1px 1px 10px pink;
+    transform: scale(1.08);
+}
+
+#clear:active {
+    transform: scale(0.855);
+    color: salmon;
+    box-shadow: 1px 1px 10px pink;
+}
+
+#urtask {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+li {
+    margin-bottom: 0.1rem;
+}
+
+.deletebro {
+    border: none;
+    background-color: red;
+    height: 2rem;
+    border-radius: 0.5rem;
+    transition: 0.2s;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: pink;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.deletebro:hover {
+    box-shadow: 1px 1px 10px pink;
+    transform: scale(1.08);
+}
+
+.deletebro:active {
+    transform: scale(0.855);
+     color: salmon;
+    box-shadow: 1px 1px 10px pink;
+}
+
+.listdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+}
+
+#urtask:hover {
+    color: rgb(38, 246, 138);
+    text-shadow: 2px 2px 20px rgb(38, 246, 138);
+    transform: scale(1.1);
+}
+
+
+
+.container {
+    min-height: 16rem;
+    height: auto;
+    width: 50vw;
+    padding-left: 5rem;
+    padding-right: 2rem;
+    background-color: wheat;
+    border-radius: 1.5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: salmon;
+    box-shadow: 1px 1px 10px white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.container:hover {
+    transform: scale(1.05);
+}
+
