@@ -10,6 +10,10 @@ input.addEventListener("keydown", function(event) {
 
 button.addEventListener("click", function() {
     let input = document.querySelector("input");
+    if(input.value === "") {
+        alert("Please enter a task!");
+        return;
+    }
     console.log(input.value);
     let li = document.createElement("li");
     let btn = document.createElement("button");
