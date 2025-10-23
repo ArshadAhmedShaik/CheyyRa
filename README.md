@@ -1,4 +1,4 @@
-# CheyyRa
+# CheyyRa (To-do List)
 
 A sleek and responsive Todo application built with HTML, CSS, and vanilla JavaScript. Features a modern design with smooth animations and an intuitive user interface. CheyyRa makes task management simple and elegant!
 
